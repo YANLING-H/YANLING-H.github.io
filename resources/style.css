@@ -4,38 +4,48 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     background-color:  #c4e3fd;
 }
 /* nav bar */
 .nav {
-    display: block;
     text-align: right;
+    padding-right: 10px;
 }
-.nav > a {
+.nav a {
     text-decoration: none;
-    color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
 }
 
-.nav > a:visited {
-    color: purple;
+.nav a:hover {
+    background-color: #eee;
+    color: #ff8500
 }
 
 /* intro */
 .intro {
-    font-size: 40px;
-    font-weight: 200;
-    text-align: center;
-    line-height: 700px;
-    color: white;
-    height: 700px;
+    height: 900px;
     background-image: url(https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80);
     background-repeat: no-repeat;
     background-position: center top;
 }
 
+.intro h1 {
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 900px;
+    color: white;
+}
 /* My works */
-/* hover 效果：https://blog.csdn.net/qq_43517388/article/details/109291317 */
+/* hover + cover 效果：https://blog.csdn.net/qq_43517388/article/details/109291317 */
 
 
 
